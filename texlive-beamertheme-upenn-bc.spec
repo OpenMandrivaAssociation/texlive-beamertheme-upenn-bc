@@ -1,18 +1,12 @@
-# revision 29937
-# category Package
-# catalog-ctan /macros/latex/contrib/beamer-contrib/themes/upenn-bc
-# catalog-date 2013-04-14 16:59:43 +0200
-# catalog-license lppl
-# catalog-version 1.0
 Name:		texlive-beamertheme-upenn-bc
-Version:	1.0
-Release:	10
+Version:	29937
+Release:	1
 Summary:	Beamer themies for Boston College and the University of Pennsylvania
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/upenn-bc
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamertheme-upenn-bc.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamertheme-upenn-bc.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamertheme-upenn-bc.r29937.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamertheme-upenn-bc.doc.r29937.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -30,12 +24,12 @@ any support for, these color themes. I give no warranty for the
 code.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -48,7 +42,7 @@ code.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
