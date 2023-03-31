@@ -1,6 +1,6 @@
 Name:		texlive-beamertheme-upenn-bc
 Version:	29937
-Release:	1
+Release:	2
 Summary:	Beamer themies for Boston College and the University of Pennsylvania
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/upenn-bc
