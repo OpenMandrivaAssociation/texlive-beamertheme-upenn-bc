@@ -3,7 +3,7 @@ Version:	29937
 Release:	2
 Summary:	Beamer themies for Boston College and the University of Pennsylvania
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/upenn-bc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/upenn-bc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamertheme-upenn-bc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamertheme-upenn-bc.doc.r%{version}.tar.xz
